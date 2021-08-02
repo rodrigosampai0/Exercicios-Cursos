@@ -9,6 +9,7 @@ def primo(numero = 0):
     else:
         print('Não é primo')
 
+
 if __name__ == "__main__":
     while True:
         numero = int(input('Digite um número: '))
