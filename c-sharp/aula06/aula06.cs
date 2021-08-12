@@ -18,9 +18,9 @@ class aula06{
 
         valorVenda = valorCompra+(valorCompra*lucro);
 
-        Console.WriteLine("Produto........:{0,14}",produto);
-        Console.WriteLine("Val.Compra.....:{0,15:c}",valorCompra); // c = R$
-        Console.WriteLine("Lucro..........:{0,14:p}",lucro); // p = %
-        Console.WriteLine("Val.Venda......:{0,15:c}",valorVenda); // c = R$
+        Console.WriteLine("Produto........:{0,14}", produto);
+        Console.WriteLine("Val.Compra.....:{0,15:c}", valorCompra); // c = R$
+        Console.WriteLine("Lucro..........:{0,14:p}", lucro); // p = %
+        Console.WriteLine("Val.Venda......:{0,15:c}", valorVenda); // c = R$
     }
 }
