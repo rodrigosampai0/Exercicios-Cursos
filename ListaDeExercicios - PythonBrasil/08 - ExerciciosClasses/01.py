@@ -1,7 +1,6 @@
 # Classe Bola: Crie uma classe que modele uma bola:
-
-# Atributos: Cor, circunferência, material
-# Métodos: trocaCor e mostraCor
+#   a. Atributos: Cor, circunferência, material
+#   b. Métodos: trocaCor e mostraCor
 
 class Bola:
     
@@ -11,7 +10,7 @@ class Bola:
         self.material = material
 
     def trocaCor(self):
-        self.cor = input(str('Nova cor: '))
+        self.cor = str(input('Nova cor: '))
         return self.cor
 
     def mostraCor(self):
